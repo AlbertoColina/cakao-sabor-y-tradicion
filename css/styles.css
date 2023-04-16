@@ -241,6 +241,25 @@ display: flexbox;
     height: 300px;
 }
 
+.lista-productos{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.parrafo-articulo{
+
+    text-align: center;
+    color: rgb(155, 112, 32);
+   
+
+}
+.producto-tienda{
+
+    max-width: 80%;;
+}
+
+
 @media (min-width: 1201px) {
 
 
