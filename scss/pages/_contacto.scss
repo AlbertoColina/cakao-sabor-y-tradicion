@@ -1,50 +1,85 @@
-
 .imagen-contacto {
     display: none;
 }
 
-.mapa{
+.texto-contacto {
+
+    background-color: rgb(116, 152, 24);
+    color: rgb(235, 227, 222);
+    margin-bottom: 10px;
+
+
+}
+
+.formulario {
+
+    margin: 10px;
+    height: auto;
+    font-size: 15px;
+    background-color: rgb(208, 214, 102);
+    
+.mapa {
     width: 100%;
     height: auto;
 }
 
 
-@media (max-width: 600px ) {
+
+}
 
 
+@media (max-width: 600px) {
+
+    .texto-contacto {
+
+        background-color: rgb(216, 225, 193);
+        color: rgb(152, 69, 10);
+        margin-bottom: 10px;
+
+        #map {
+            height: 100%;
+        }
+
+
+    }
+
+    .formulario {
+
+        margin: 10px;
+        height: auto;
+        font-size: 15px;
+        background-color: rgb(167, 237, 148);
+    }
 
 
 
 }
 
+@media (max-width: 380px) {
 
+    .imagen-contacto {
+        max-width: 100%;
+        height: auto
+    }
 
+    .texto-contacto {
 
+        background-color: white;
+        color: chocolate;
+        margin-bottom: 10px;
+    }
 
-@media ( max-width: 380px){
+    .formulario {
 
-.imagen-contacto {
-    max-width: 100%;
-    height: auto
-}
-.texto-contacto {
+        margin: auto;
+        height: auto;
+        font-size: 15px;
+        background-color: rgb(223, 204, 176);
 
-    background-color: white;
-    color: chocolate;
-    margin-bottom: 10px;
-}
+    }
 
-.formulario {
-
-    margin: auto;
-    height: auto;
-    font-size: 15px;
-    background-color: rgb(223, 204, 176);
-
-}
-
-#map {
-    height: 100%;
-}
+    #map {
+        height: 100%;
+    }
 
 }

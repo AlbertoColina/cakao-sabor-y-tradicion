@@ -17,9 +17,27 @@
 
 }
 
+@media (max-width: 600px) {
 
+    .contenedor-footer {
+        background-color: rgb(200, 212, 158);
+        color: rgb(39, 24, 6);
+        font-size: 15px;
 
+        .elementos-footer {
 
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+            text-align: justify;
+            ul{
+                list-style: none;
+            }
+        }
+
+    }
+
+}
 
 @media (max-width: 380px) {
 
