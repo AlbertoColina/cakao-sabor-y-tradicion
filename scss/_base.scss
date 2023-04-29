@@ -5,15 +5,6 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
 font-face {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -21,24 +12,6 @@ font-face {
 font-face {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
-.logo {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: none;
-    padding: 10px;
-
-
-}
-
-h1 {
-    color: maroon;
-    font-family: kanit, sans-serif;
 
 }
 
@@ -51,74 +24,20 @@ h2 {
     display: flex;
 }
 
-
-.contenedor-producto {
-    display: flexbox;
-    flex-wrap: wrap;
-    justify-content: space-between;
- 
-    
-
-}
-
-.producto-inicio {
-    width: 50%;
-    margin-bottom: 30px;
-    padding: 10px;
-    text-align: center;
-    display: flexbox;
-    
-
-
-
-
-}
-
-.producto-2 {
-
-    display: flex;
-    justify-content: center
-    ;
-    max-width: 100%;
-    height: auto;
-
-
-}
-
-.producto-division {
-    display: flexbox;
-    width: 100%;
-    vertical-align: middle;
-    font-size: 15px;
-    margin: 10%;
-    
-
-
-
-
-
-
-@media ( max-width: 320px){
-.logo {
-
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    height: fit-content;
-    padding: 10%;
-
+div {
+    padding-bottom: 20px;
+    margin-bottom: 30 px;
+    padding-top: 20px;
 }
 
 
-h1 {
-
-    color: maroon;
-    background-color: white;
-    font-size: 20px;
-    font-family: kanit, sans-serif;
 
 
-}
+
+
+
+@media ( max-width: 380px){
+
 
 h2 {
     color: rgb(244, 230, 234);
@@ -135,34 +54,6 @@ div {
     padding-top: 20px;
 }
 
-
-
-.producto-division {
-    display: flex;
-    width: auto;
-    vertical-align: top;
-    text-align: center;
-    font-size: 15px;
-    
-}
-
-.contenedor-productos {
-
-display: flexbox;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    max-width: 50%;
-
-}
-
-
-.parrafo-articulos {
-
-    margin: 10px;
-    font-size: 15px;
-    text-align: justify;
-}
 
 }
 
