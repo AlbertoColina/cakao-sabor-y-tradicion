@@ -1,29 +1,37 @@
+.titulo {
+
+    color: rgb(136, 7, 7);
+    background-color: rgb(253, 254, 255);
+    font-size: 32px;
+    justify-content: center;
+}
+
+
+.imagen-inicio {
+
+    width: 50%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.texto-resaltante {
+
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto-centrado {
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (max-width: 768px ) {
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 @media ( max-width: 320px){
