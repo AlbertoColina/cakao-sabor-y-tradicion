@@ -14,6 +14,12 @@ font-face {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+h1{
+color: rgb(107, 79, 60);
+font-size: 20px;
+justify-content: center;
+
+}
 
 h2 {
     color: rgb(244, 230, 234);
@@ -38,6 +44,13 @@ div {
 
 @media ( max-width: 380px){
 
+
+    h1{
+        color: rgb(107, 79, 60);
+        font-size: 20px;
+        justify-content: center;
+        
+        }
 
 h2 {
     color: rgb(244, 230, 234);
