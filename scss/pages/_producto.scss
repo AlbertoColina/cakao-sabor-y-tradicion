@@ -29,7 +29,35 @@
 
 @media (max-width: 600px ) {
 
+    .producto-tienda{
 
+        max-width: 80%;
+    }
+    
+  
+    .parrafo-articulo{
+    
+        text-align: center;
+        font-size: 25px;
+        color: rgb(52, 35, 4);
+    }
+
+    .lista-productos{
+        list-style: inside;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    
+
+    .producto-division {
+        display: flexbox;
+        width: 50%;
+        vertical-align: top;
+        text-align: center;
+        font-size: 20px;
+        align-content: center;
+        }
 
 
 

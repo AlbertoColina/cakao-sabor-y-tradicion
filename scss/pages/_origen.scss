@@ -138,17 +138,19 @@
             height: auto;
             width: 100%;
 
-            .mujer-texto {
-                text-align: center;
-                display: flex;
-                color: rgb(241, 247, 247);
-            }
-
+           
 
         }
     }
 
 }
+
+.mujer-texto {
+    text-align: center;
+    display: flexbox;
+    color: rgb(241, 247, 247);
+}
+
 
 .manos-con-cacao {
 
