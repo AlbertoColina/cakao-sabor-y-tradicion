@@ -13,9 +13,11 @@ font-face {
 }
 
 h1 {
-  color: rgb(107, 79, 60);
+  color: rgb(236, 234, 232);
   font-size: 20px;
   justify-content: center;
+  background-color: #556b2f;
+  text-align: center;
 }
 
 h2 {
@@ -34,9 +36,11 @@ div {
 
 @media (max-width: 380px) {
   h1 {
-    color: rgb(107, 79, 60);
+    color: #e5e3e3;
     font-size: 20px;
     justify-content: center;
+    background-color: #556b2f;
+    text-align: center;
   }
   h2 {
     color: rgb(244, 230, 234);
@@ -99,16 +103,14 @@ div {
     color: chocolate;
     margin-bottom: 10px;
   }
-  .formulario {
-    margin: auto;
-    height: auto;
-    font-size: 15px;
-    background-color: rgb(223, 204, 176);
-  }
-  #map {
-    height: 100%;
-  }
 }
+.formulario {
+  margin: auto;
+  height: auto;
+  font-size: 15px;
+  background-color: rgb(223, 204, 176);
+}
+
 .titulo {
   color: rgb(136, 7, 7);
   background-color: rgb(253, 254, 255);
