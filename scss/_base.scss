@@ -16,9 +16,9 @@ font-face {
 }
 h1{
 color: rgb(236, 234, 232);
-font-size: 20px;
+font-size: 30px;
 justify-content: center;
-background-color: #556b2f;
+background-color: #88c51e;
 text-align: center;
 
 }
@@ -39,6 +39,35 @@ div {
 }
 
 
+@media ( max-width: 600px){
+
+
+    h1{
+        color: #e5e3e3;
+        font-size: 20px;
+        justify-content: center;
+        background-color: #99a71b;
+        text-align: center;
+        
+        }
+
+h2 {
+    color: rgb(244, 230, 234);
+
+    background-color: #556b2f;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+div {
+    padding-bottom: 20px;
+    margin-bottom: 30 px;
+    padding-top: 20px;
+}
+
+
+}
 
 
 
@@ -51,7 +80,7 @@ div {
         color: #e5e3e3;
         font-size: 20px;
         justify-content: center;
-        background-color: #556b2f;
+        background-color: #8e2b13;
         text-align: center;
         
         }

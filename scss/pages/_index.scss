@@ -40,25 +40,11 @@
 
             .producto-2 {
 
-                display: flex;
+                display: inline-block;
                 justify-content: center;
-                max-width: 100%;
-                height: auto;
-
-
-
-
+            max-width: 100%;       
             }
-
-
-
-
         }
-
-
-
-
-
     }
 
 }
@@ -66,7 +52,7 @@
 
 .texto-centrado {
     text-align: center;
-    font-size:35px;
+    font-size: 35px;
     background-color: rgb(47, 176, 47);
     color: white;
     font-size: medium;
@@ -76,8 +62,8 @@
 
 img {
 
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+  
 }
 
 
@@ -129,7 +115,8 @@ img {
                 .producto-2 {
 
                     display: flex;
-                    justify-content: center;
+                    text-align: center;
+                    justify-content: baseline;
                     max-width: 100%;
                     height: auto;
 
@@ -216,15 +203,14 @@ img {
                 margin-bottom: 30px;
                 padding: 10px;
                 text-align: center;
-             
+
 
                 .producto-2 {
-                    display: flex;
-                    justify-content: center;
-                    max-width: 100%;
+                    display: block;
+                    width: 100%;
                     height: auto;
                     vertical-align: top;
-            
+
 
 
                 }
