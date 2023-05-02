@@ -116,18 +116,16 @@ img {
 
 
     .producto-division {
-        display: flex;
-        gap: 20%;
+        display: inline;
+        gap: 10%;
         width: 100%;
         justify-content: center;
-        font-size: 30px;
-        padding: 10%;
+        font-size: 25px;
+        padding: 5%;
         font-size: 35px;
-
-
-
-        .contenedor-producto {
-            display: inline-block;
+        
+        .contenedor-productos {
+            display: flex;
             width: 100%;
             flex-wrap: wrap;
             justify-content: center;
@@ -141,12 +139,14 @@ img {
                 padding: 10px;
                 text-align: center;
                 vertical-align: middle;
-             
-
-
-
+                
+                .producto-2 {
+                    display: inline-block;
+                    justify-content: center;
+                    width: 100%;
+                
+                }
             }
-
 
         }
     }
@@ -155,18 +155,16 @@ img {
 
     .texto-centrado {
         text-align: center;
-        font-size: 25px;
+        font-size: 35px;
         background-color: rgb(47, 176, 47);
         color: white;
-        font-size: medium;
-        margin-top: auto;
+        font-size: 25px;
         margin-bottom: 5px;
     }
 
     img {
 
         max-width: 100%;
-        height: none;
     }
 
 
@@ -216,7 +214,7 @@ img {
             margin-top: 10px;
             background-color: white;
 
-            .poducto-inicio {
+            .producto-inicio {
                 display: inline-block;
                 width: 100%;
                 height: 100%;
