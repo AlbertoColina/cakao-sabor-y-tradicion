@@ -117,27 +117,29 @@
     .parrafo-articulos {
 
         margin: 10px;
-        font-size: 15px;
+        font-size: 25px;
         text-align: justify;
 
     }
 
     .mujeres-barlovento {
 
-        display: flex;
-        height: auto;
-        margin: none;
+        display: inline-block;
         justify-content: center;
+        align-content: center;
         background-color: #628f13;
         color: white;
+        font-size: 30px;
+
 
         .mujeres-origen {
-            border-radius: 30%;
+            border-radius: 40%;
             align-items: center;
-            margin: auto;
-            height: auto;
-            width: 100%;
-
+            align-content: center;
+            margin-top: 10px;
+            width: 90%;
+            justify-content: center;
+            padding:10%;
            
 
         }
@@ -147,21 +149,20 @@
 
 .mujer-texto {
     text-align: center;
-    display: flexbox;
     color: rgb(241, 247, 247);
 }
 
 
 .manos-con-cacao {
 
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 
 .filosofia {
 
-    font-size: 25px;
+    font-size: 35px;
     margin: 10px;
     background-color: rgb(126, 67, 24);
     color: white;
@@ -169,7 +170,7 @@
     .texto-filosofia {
 
         font-size: 15px;
-        margin: 10px;
+        margin: 40px;
         text-align: justify;
     }
 
