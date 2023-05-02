@@ -149,14 +149,13 @@ div {
     color: chocolate;
     margin-bottom: 10px;
   }
+  .formulario {
+    margin: auto;
+    height: auto;
+    font-size: 15px;
+    background-color: rgb(223, 204, 176);
+  }
 }
-.formulario {
-  margin: auto;
-  height: auto;
-  font-size: 15px;
-  background-color: rgb(223, 204, 176);
-}
-
 .titulo {
   color: rgb(136, 7, 7);
   background-color: rgb(253, 254, 255);
@@ -457,7 +456,7 @@ img {
 }
 
 .filosofia {
-  font-size: 35px;
+  font-size: 30 px;
   margin: 10px;
   background-color: rgb(126, 67, 24);
   color: white;
@@ -509,7 +508,7 @@ img {
     height: auto;
   }
   .manos-con-cacao .filosofia {
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px;
     background-color: rgb(126, 67, 24);
     color: white;
