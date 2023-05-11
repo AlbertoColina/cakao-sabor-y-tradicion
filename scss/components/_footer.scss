@@ -2,20 +2,25 @@
     background-color: rgb(158, 212, 158);
     color: rgb(39, 24, 6);
     text-align: center;
-    list-style: none;
+    font-size: 35px;
+
+    }
 
     .elementos-footer {
 
         display: inline-block;
-        margin: 10px;
+        margin: 50px;
         vertical-align: top;
-       text-align: justify;
-        ul{
-            list-style: none;
-        }
-    }
-
+        text-align: justify;
+    list-style: none;
 }
+
+ul {
+    list-style: none;
+}
+
+
+
 
 @media (max-width: 600px) {
 
@@ -30,7 +35,8 @@
             margin: 10px;
             vertical-align: top;
             text-align: justify;
-            ul{
+
+            ul {
                 list-style: none;
             }
         }
@@ -53,7 +59,8 @@
             margin: 10px;
             vertical-align: top;
             text-align: justify;
-            ul{
+
+            ul {
                 list-style: none;
             }
         }

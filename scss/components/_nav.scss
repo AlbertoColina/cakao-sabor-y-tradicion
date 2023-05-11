@@ -2,6 +2,7 @@
     display: flex;
     list-style: none;
     justify-content: space-around;
+}
 
     .menu-principal {
         display: flex;
@@ -16,7 +17,7 @@
         }
     }
 
-}
+
 
 @media (max-width: 600px) {
     .nav {
