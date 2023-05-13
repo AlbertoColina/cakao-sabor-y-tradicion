@@ -120,7 +120,7 @@ div {
 }
 
 .formulario {
-  margin: 10px;
+  margin: 20px;
   height: auto;
   font-size: 25px;
   background-color: rgb(208, 214, 102);
@@ -135,7 +135,7 @@ div {
   .formulario {
     margin: 10px;
     height: auto;
-    font-size: 15px;
+    font-size: 25px;
     background-color: rgb(167, 237, 148);
   }
 }
@@ -152,7 +152,7 @@ div {
   .formulario {
     margin: auto;
     height: auto;
-    font-size: 15px;
+    font-size: 20px;
     background-color: rgb(223, 204, 176);
   }
 }
@@ -210,10 +210,9 @@ div {
 
 .texto-centrado {
   text-align: center;
-  font-size: 55px;
+  font-size: 35px;
   background-color: rgb(47, 176, 47);
   color: white;
-  font-size: medium;
   margin-bottom: 5px;
 }
 
@@ -273,7 +272,6 @@ img {
     font-size: 35px;
     background-color: rgb(47, 176, 47);
     color: white;
-    font-size: 25px;
     margin-bottom: 5px;
   }
   img {
@@ -359,22 +357,16 @@ img {
 }
 
 .origen-del-cacao {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   margin-top: 120px;
   color: maroon;
 }
 
 .parrafo-articulos {
-  text-align: center;
-  font-size: 100px;
+  font-size: 55px;
   color: black;
-}
-
-.portada-origen-cacao {
-  text-align: 25px;
-  font-size: 20px;
-  margin: 50px;
+  margin: 5px;
 }
 
 .manos-con-cacao {
@@ -398,6 +390,7 @@ img {
   text-align: center;
 }
 .mujeres-barlovento .mujeres-origen .mujer-texto {
+  font-size: 40px;
   text-align: center;
   display: block;
   color: rgb(241, 247, 247);
@@ -409,11 +402,7 @@ img {
   font-size: 35px;
   margin: 20px;
 }
-.filosofia .texto-filosofia {
-  font-size: 20px;
-  text-align: justify;
-}
-.filosofia .texto-filosofia .filosofia-cacao {
+.filosofia .filosofia-cacao {
   display: flex;
   margin: 20px;
 }
