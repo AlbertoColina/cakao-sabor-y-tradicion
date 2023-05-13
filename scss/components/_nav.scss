@@ -10,15 +10,16 @@
         list-style: none;
         display: flex;
         justify-content: center;
-        padding: 19px;
+        padding: 15px;
         font-size: 2rem;
         text-align: center;
         text-decoration: none;
-.menu-elemento{
 
-    display: inline-block;
-  margin-right: 40px;
-}
+        .menu-elemento {
+
+            display: inline-block;
+            margin-right: 60px;
+        }
 
         a {
             text-decoration: none;
@@ -40,6 +41,12 @@
             padding: 0.3em;
             font-size: 1.2rem;
             text-align: center;
+
+            .menu-elemento {
+
+                display: inline-block;
+                margin-right: 5px;
+            }
 
 
             a {
@@ -64,6 +71,10 @@
         list-style: none;
         justify-content: space-around;
         text-decoration: none;
+        padding: 10px 20px;
+
+
+
 
         .menu-principal {
             display: flex;
@@ -72,6 +83,13 @@
             font-size: 20px;
             text-align: center;
             text-decoration: none;
+
+
+            .menu-elemento {
+
+                display: inline-block;
+                margin-right: 5px;
+            }
 
 
 
